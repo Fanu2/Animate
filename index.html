@@ -3,15 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Beautiful Webpage</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
 </head>
 <body>
-    <div class="background">
-        <div class="content">
-            <h1></h1>
-            <p></p>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Beautiful Webpage</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Modern, Responsive, and Beautiful</h2>
+            <p>This is a demonstration of a clean and professional webpage built with HTML and CSS.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About This Page</h2>
+            <p>This webpage is built with simplicity and beauty in mind, using modern web development techniques.</p>
+        </div>
+    </section>
+
+    <section id="features" class="section features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Modern CSS Styling</li>
+                <li>Easy to Customize</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
