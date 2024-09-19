@@ -9,7 +9,7 @@ body {
     position: relative;
     width: 210mm; /* A4 width */
     height: 297mm; /* A4 height */
-    background-image: url('/home/jasvir/Background paper/1.jpg'); /* Use your image path */
+    background-image: url('1.jpg'); /* Use your image path */
     background-size: cover; /* or 'contain' */
     background-repeat: no-repeat;
     background-position: center;
