@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    position: relative;
+    width: 210mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    background-image: url('/home/jasvir/Background paper/1.jpg'); /* Use your image path */
+    background-size: cover; /* or 'contain' */
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.1; /* Adjust for visibility */
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* Text color */
+    padding: 20px;
+    text-align: center;
+    z-index: 1; /* Content above the background */
+}
